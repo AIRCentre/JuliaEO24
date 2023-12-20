@@ -18,7 +18,7 @@ Emanuel Castanho and Andrea Giusti (AIR Centre)
 
 2- After installation using the recommended settings, start Docker without signing in and fill some information;
 
-3- Download AIRCentre/JuliaEO24 repository, click on *<> Code* and select *Download ZIP*;
+3- Download *AIRCentre/JuliaEO24* repository, click on *<> Code* and select *Download ZIP*;
 
 4- Unzip the downloaded file and move the *JuliaEO24-main* folder to your Desktop or other path (keep the path simple);
 
