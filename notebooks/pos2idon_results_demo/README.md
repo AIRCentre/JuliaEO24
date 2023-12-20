@@ -1,7 +1,7 @@
 # JuliaEO - Global Workshop on Earth Observation with Julia 2024
 
 # Session: 
-# POS2IDON: Computing Pipeline for Ocean Features Detection with Sentinel-2
+# POS2IDON: Pipeline for Ocean Features Detection with Sentinel-2
 
 Emanuel Castanho and Andrea Giusti (AIR Centre)
 
