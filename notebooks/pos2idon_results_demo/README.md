@@ -30,7 +30,7 @@ Emanuel Castanho and Andrea Giusti (AIR Centre)
 
 6- The previous command will start Jupyter, open the server url (try the third url) on your browser; 
 
-7- Download *data.zip* from [here](https://drive.google.com/file/d/1wUkxcblsUzBg3uwzV6KUq1oAB0eGvYfI/view?usp=share_link), unzip it and replace *data* folder inside *pos2idon\_results\_demo*;
+7- Download *data.zip* from [here](https://drive.google.com/file/d/19_MfERFOdDpek5XjWR3dKQKPFWMsX520/view?usp=share_link), unzip it and replace *data* folder inside *pos2idon\_results\_demo*;
 
 8- You are ready to run the notebook *pos2idon\_results\_demo.ipynb*
 
