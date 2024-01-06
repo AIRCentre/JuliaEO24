@@ -1,0 +1,2 @@
+# Introduction to Julia
+This is a gentle introduction to the Julia programming language for the participants of the JuliaEO 2024 - Global Workshop on Earth Observation with Julia, which will take place from January 8th to January 12th, 2024, on Terceira Island in the Azores.
