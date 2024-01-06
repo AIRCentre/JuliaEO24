@@ -8,15 +8,14 @@ Please check the event [Website](https://aircentre.github.io/JuliaEO24/) for mor
 Repo for resources such as:
  + [Website](https://aircentre.github.io/JuliaEO24/ "Up-to-date program")
  + Notebooks (see folder above)
- + Datasets (see folder above)
+ + [Datasets](https://drive.google.com/drive/folders/1BY_k4pBhcK7uNOo7jMW0hJT8FFug-YJm)
  + Documents (see folder above)
 
 ### Notebooks
 Notebooks can be found above within the *notebooks* folder, organised by session.
 
 ### Datasets
-Information regarding datasets will be placed here.
-In general, datasets are stored with the respective notebook. Exceptionally, some might be placed in the folder above.
+In general, datasets are stored with the respective notebook. Exceptionally, for some sessions that require large datasets, you may be asked to download them in advance. In such cases, the datasets will be available in this [Google Drive folder](https://drive.google.com/drive/folders/1BY_k4pBhcK7uNOo7jMW0hJT8FFug-YJm). Please check it regularly as the speakers will be adding datasets accordingly.
 
 ### Documents
 A folder with documents can be found above. It will include complementar materials such as general instructions, if necessary.
