@@ -22,11 +22,13 @@ Emanuel Castanho and Andrea Giusti (AIR Centre)
 
 4- Unzip the downloaded file and move the *JuliaEO24-main* folder to your Desktop or other path (keep the path simple);
 
-5- Open a terminal window inside the folder *JuliaEO24-main/notebooks/pos2idon\_results\_demo* and run the following commands: 
+5- Open a terminal window inside the folder *JuliaEO24-main/notebooks/pos2idon\_results\_demo*, copy and run the following commands: 
 
 `docker build -t pos2idon_results_demo .` (wait until it finishes the building)
 
-`docker run -it -p 8888:8888 -v .:/home/jovyan/pos2idon_results_demo pos2idon_results_demo` (do this on the same terminal window)
+`docker run -it -p 8888:8888 -v .:/home/jovyan/pos2idon_results_demo pos2idon_results_demo` (do this on the same terminal window, do not change this command)
+
+Note: If the previous command gives an error on Windows, try: `docker run -it -p 8888:8888 -v ${PWD}:/home/jovyan/pos2idon_results_demo pos2idon_results_demo`
 
 6- The previous command will start Jupyter, open the server url (try the third url) on your browser; 
 
