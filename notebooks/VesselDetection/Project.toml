@@ -1,0 +1,8 @@
+[deps]
+DotEnv = "4dc1fcf4-5e3b-5448-94ab-0c38ec0385c1"
+GLMakie = "e9467ef8-e4e7-5192-8a1a-b1aee30e663a"
+ImageMorphology = "787d08f9-d448-5407-9aad-5290dd7ab264"
+Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
+Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+VesselDetection = "f486195a-4be2-4af5-9851-e2ef8dd613f9"
