@@ -22,11 +22,11 @@ Emanuel Castanho and Andrea Giusti (AIR Centre)
 
 4- Unzip the downloaded file and move the *JuliaEO24-main* folder to your Desktop or other path (keep the path simple);
 
-5- Open a terminal window inside the folder *JuliaEO24-main/notebooks/pos2idon\_results\_demo*, copy and run the following commands: 
+5- Open a terminal (powershell on Windows) inside the folder *JuliaEO24-main/notebooks/pos2idon\_results\_demo*, copy and run the following commands: 
 
 `docker build -t pos2idon_results_demo .` (wait until it finishes the building)
 
-`docker run -it -p 8888:8888 -v .:/home/jovyan/pos2idon_results_demo pos2idon_results_demo` (do this on the same terminal window, do not change this command)
+`docker run -it -p 8888:8888 -v .:/home/jovyan/pos2idon_results_demo pos2idon_results_demo` (do this on the same terminal/powershell, do not change this command)
 
 Note: If the previous command gives an error on Windows, try: `docker run -it -p 8888:8888 -v ${PWD}:/home/jovyan/pos2idon_results_demo pos2idon_results_demo`
 
@@ -37,7 +37,7 @@ Note: If the previous command gives an error on Windows, try: `docker run -it -p
 8- You are ready to run the notebook *pos2idon\_results\_demo.ipynb*
 
 ### Setup on Conda (optional):
-5- If you do not want to use Docker, try Miniconda. After step 4, open a terminal window inside the folder *JuliaEO24-main/notebooks/pos2idon\_results\_demo* and run the following commands:
+5- If you do not want to use Docker, try Miniconda. After step 4, open a terminal/powershell inside the folder *JuliaEO24-main/notebooks/pos2idon\_results\_demo* and run the following commands:
 
 `conda create -n pos2idon_results_demo-env python=3.9`
 
@@ -47,7 +47,7 @@ Note: If the previous command gives an error on Windows, try: `docker run -it -p
 
 `pip install notebook==7.0.6 localtileserver==0.7.2 geopandas==0.14.0 leafmap==0.27.0 scikit-learn==1.1.1 pyarrow==13.0.0`
 
-6- On the same terminal window, run `jupyter notebook` to start.
+6- On the same terminal/powershell, run `jupyter notebook` to start.
 
 
 
