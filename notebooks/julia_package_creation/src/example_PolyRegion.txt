@@ -1,0 +1,15 @@
+# PolyRegion
+# Template for User-Defined PolyRegion GeoRegions
+# (RegID, ParID, Name), X, Y
+
+RegID SEA, TRP, Southeast-Asia/Maritime-Continent
+RegX  90.0, 90.0, 132.0, 132.0, 170.0, 100, 90.0
+RegY  5.0, 19.5, 19.5, 5.0, -10.0, -10.0, 5.0
+
+RegID TRA, TRP, Tropical-Africa
+RegX  -17, 35, 35, 7, 7, -17, -17
+RegY  10, 10, -10, -10, 2, 2, 10
+
+RegID AMZ, TRP, Amazon-Rainforest
+RegX  -75, -60, -40, -55, -75, -75
+RegY  12, 12, -2, -12, -12, 12
