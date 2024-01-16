@@ -1,0 +1,15 @@
+name = "JuliaEO2024_Nat"
+
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+GeoRegions = "b001f823-fa75-4bff-bf55-6610c8f3688a"
+GeometryBasics = "5c1252a2-5f33-56bf-86c9-59e7332b4326"
+NASAPrecipitation = "a018b980-0677-41c0-b9a4-7f34595c2b14"
+NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
+PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
+Proj = "c94c279d-25a6-4763-9509-64d165bea63e"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
