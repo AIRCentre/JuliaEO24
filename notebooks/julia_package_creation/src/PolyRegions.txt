@@ -1,0 +1,11 @@
+# PolyRegion
+# Template for User-Defined PolyRegion GeoRegions
+# (RegID, ParID, Name), X, Y
+
+  RegID
+  RegX 
+  RegY 
+
+  RegID
+  RegX 
+  RegY 

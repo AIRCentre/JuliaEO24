@@ -1,0 +1,10 @@
+# RectRegion
+# Template for User-Defined RectRegion GeoRegions
+# (1)ID, (2)pID, (3)N, (4)W, (5)S, (6)E, (7)Description, (8)Notes
+
+# TST, GLB, 50, 20, 40, 30, Test Rectangle
+
+TRP, GLB, 30, 0, -30, 360, Tropics
+DTP, TRP, 10, 0, -10, 360, Deep-Tropics
+CRB, TRP, 25, -90, 15, -60, Caribbean-Islands
+WSEA, TRP, 20, 90, -10, 130, Western-Southeast-Asia
