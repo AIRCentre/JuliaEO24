@@ -208,7 +208,7 @@ begin
 	map!(ax,fig[1,1],"True field")
 	Colorbar(fig[2,1],hm, vertical = false)
 	
-	ax, sc = scatter(fig[1,2],xi[indexobs],yi[indexobs],color = vobs,colorrange = cl)
+	ax, sc = scatter(fig[1,2],xobs2,yobs,color = vobs,colorrange = cl)
 	map!(ax,fig[1,2],"Observations")
 	Colorbar(fig[2,2],sc, vertical = false)
 	
@@ -246,7 +246,7 @@ function submit_results(groupname,rms_velocity)
         return str
     end
     myjson(data) = "{" * join(["\"$k\":$(string(v))" for (k,v) in data],",") * "}"
-    game = "DIVAnd2024-test"
+    game = "DIVAnd2024"
 
     data_dict = Dict()
     #=
@@ -2407,7 +2407,7 @@ version = "3.5.0+0"
 # ╟─4536002b-8da1-4f65-ab46-6fc4920684b9
 # ╠═95b81ac2-293a-47cf-a0a1-67b6ef9d5674
 # ╟─1e9167ab-0301-421e-bdb0-4fb14ed3cf27
-# ╟─187e1522-3dbb-4c4f-8cd3-cde996950c2e
+# ╠═187e1522-3dbb-4c4f-8cd3-cde996950c2e
 # ╠═a01e2bd5-8a87-415c-8198-531f55ee52bd
 # ╠═572f172f-4daa-4c13-9121-9b296c555fcc
 # ╟─00000000-0000-0000-0000-000000000001
